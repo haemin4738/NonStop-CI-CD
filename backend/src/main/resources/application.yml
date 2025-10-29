@@ -102,7 +102,7 @@ custom:
   jwt:
     secretKey: ${CUSTOM__JWT__SECRET_KEY}
   accessToken:
-    expirationSeconds: "#{60*20}"
+    expireSeconds: "#{60*20}"
   notProdMembers:
     - username: KAKAO__123132423
       apiKey: kakao__1
