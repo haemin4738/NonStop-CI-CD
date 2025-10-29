@@ -8,8 +8,8 @@ spring:
       password: ${SPRING__DATA__REDIS__PASSWORD}
   datasource:
     url: jdbc:mysql://mysql_1:3306/${SPRING__DATASOURCE__URL___DB_NAME}
-    username: lldjlocal
-    password: 1234
+    username: root
+    password: root123414
     driver-class-name: com.mysql.cj.jdbc.Driver
 logging:
   level:
